@@ -1,0 +1,152 @@
+{
+	"module": "UserTypeWebElements",
+	"models": [
+		{
+			"name": "UserType",
+			"elements": [
+				{
+					"key": "user",
+					"value":"link_ivmenu00_menu_7",
+					"type": "ID"
+				},
+				{
+					"key": "browseContacts",
+					"value":"link_ivmenu00_menu_7_sub0",
+					"type": "ID"
+				},
+				{
+					"key": "keyWords",
+					"value":"body:x:txtQuery:x:x",
+					"type": "NAME"
+				},
+				{
+					"key": "supplier",
+					"value":"body:x:selSupplier:x:txtselSupplier:x:x",
+					"type": "NAME"
+				},
+				{
+					"key": "contactType",
+					"value":"ddlbody_x_ddlContactType_x",
+					"type": "ID"
+				},
+				{
+					"key": "organization",
+					"value":"body:x:tvOrga:x:txttvOrga:x:x",
+					"type": "NAME"
+				},
+				{
+					"key": "pencilIcon",
+					"value":"body_x_ContactGrid_x__ctl2___colManageContactGrid",
+					"type": "ID"
+				},
+				{
+					"key": "search",
+					"value":"body:x:prxFilterBar:x:cmdSearchBtn_btn2",
+					"type": "NAME"
+				},
+				{
+					"key": "reset",
+					"value":"body:x:prxFilterBar:x:cmdRazBtn_btn2",
+					"type": "NAME"
+				},
+				{
+					"key": "personTitle",
+					"value":"body:x:ContactControl:x:ddlPtitleId:PtitleId",
+					"type": "NAME"
+				},
+				{
+					"key": "lastName",
+					"value":"body:x:ContactControl:x:txtContactLastname:x:x",
+					"type": "NAME"
+				},
+				{
+					"key": "firstName",
+					"value":"body:x:ContactControl:x:txtContactFirstname:x:x",
+					"type": "NAME"
+				},
+				{
+					"key": "authorizations",
+					"value":"link_ivmenu00_menu_7_sub1",
+					"type": "ID"
+				},
+				{
+					"key": "moduleForAuthorization",
+					"value":"body:x:ddlModuleAuth:x",
+					"type": "NAME"
+				},
+				{
+					"key": "moduleForProfile",
+					"value":"body:x:ddlModuleProfile:x",
+					"type": "NAME"
+				},
+				{
+					"key": "auth",
+					"value":"body:x:txtSearchAuth:x:x",
+					"type": "NAME"
+				},
+				{
+					"key": "profile",
+					"value":"body:x:txtSearchProfile:x:x",
+					"type": "NAME"
+				},
+				{
+					"key": "createAuthorization",
+					"value":"proxyActionBar:x:btnAddAuth_btn2",
+					"type": "NAME"
+				},
+				{
+					"key": "save",
+					"value":"proxyActionBar_x__cmdSave_btn2",
+					"type": "ID"
+				},
+				{
+					"key": "ExtraAuthorization",
+					"value":"proxyActionBar_x_btnExtractAuth_btn2",
+					"type": "ID"
+				},
+				{
+					"key": "Export",
+					"value":"proxyActionBar_x_btnExporExel_btn2",
+					"type": "ID"
+				},
+				{
+					"key": "authorizationCode",
+					"value":"body:x:c_auth_code:x:x",
+					"type": "NAME"
+				},
+				{
+					"key": "moduleAvailableInTheApplication",
+					"value":"ddlbody_x_c_mdesc_name_x",
+					"type": "ID"
+				},
+				{
+					"key": "descrption",
+					"value":"body:x:c_auth_desc_:x:c_auth_desc_en",
+					"type": "NAME"
+				},
+				{
+					"key": "saveAndCLose",
+					"value":"proxyActionBar_x__cmdEnd_btn2",
+					"type": "ID"
+				},
+				{
+					"key": "saveAndNew",
+					"value":"proxyActionBar_x__cmdNew_btn2",
+					"type": "ID"
+				},
+				{
+					"key": "close",
+					"value":"proxyActionBar_x_BackAction_btn2",
+					"type": "ID"
+				},
+				{
+					"key": "forContent",
+					"value":"body:x:c_auth_ctn:x0",
+					"type": "NAME"
+				}
+				
+				
+				]
+				}
+				]
+				}

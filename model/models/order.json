@@ -1,0 +1,37 @@
+{
+	"module": "order",
+	"models": [
+		{
+			"name": "OrderType",
+			"elements": [
+				{
+					"key": "usernameProcureOne",
+					"value": "body_x_txtLogin_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "password",
+					"value": "body_x_txtLogin_x_x_yy",
+					"type": "XPATH"
+				}
+			]
+		},
+		
+		
+		{
+			"name": "SuperOrder",
+			"elements": [
+				{
+					"key": "usernameProcureOne",
+					"value": "body_x_txtLogin_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "password",
+					"value": "body_x_txtLogin_x_x_yy",
+					"type": "XPATH"
+				}
+			]
+		}
+	]
+}

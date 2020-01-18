@@ -1,0 +1,120 @@
+{
+	"module": "webElements",
+	"models": [
+		{
+			"name": "Supplier",
+			"elements": [
+				{
+					"key": "createSupplierSaveButton",
+					"value": "proxyActionBar_x__cmdSave_btn2",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierBankInfoCloseButton",
+					"value": "proxyActionBar_x_BackAction_btn2",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierBankingInformationSupplierEmailAddressForACHPaymentConf",
+					"value": "body_x_tabc_x_eproc_x_prxeproc_x_txtSupPaymentConfirmEmail_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierContactInfoSaveAndClose",
+					"value": "proxyActionBar_x__cmdEnd_btn2",
+					"type": "ID"
+				},
+				{
+					"key": "mainInfoTab",
+					"value": "//span[text()='Main Info']",
+					"type": "XPATH"
+				},
+				{
+					"key": "supplierId",
+					"value": "//td[text()='Supplier ID : ']/following-sibling::td/div",
+					"type": "XPATH"
+				},
+				{
+					"key": "createSupplierSupplierLink",
+					"value": "link_ivmenu00_menu_0",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierLink",
+					"value": "link_ivmenu00_menu_0_sub0_sub0",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierSupplierType",
+					"value": "body_x_tabc_x_identity_x_prxidentity_x_ddlType_x",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierLegalName",
+					"value": "body_x_tabc_x_identity_x_prxidentity_x_txtName_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierDoingBusinessAs",
+					"value": "body_x_tabc_x_identity_x_prxidentity_x_txtCorpName_x_txtCorpNameen",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierPhoneNumber",
+					"value": "body_x_tabc_x_identity_x_prxidentity_x_txtSupRegisContactPhone_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierMainSupplierAddressNameAdditional",
+					"value": "body_x_tabc_x_identity_x_prxidentity_x_proxyAdr_x_txtCompNom_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierAddressLine1",
+					"value": "body_x_tabc_x_identity_x_prxidentity_x_proxyAdr_x_txtVoie_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierCity",
+					"value": "body_x_tabc_x_identity_x_prxidentity_x_proxyAdr_x_txtCity_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierState",
+					"value": "body_x_tabc_x_identity_x_prxidentity_x_proxyAdr_x_ddlState_x_txtddlState_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierZip",
+					"value": "body_x_tabc_x_identity_x_prxidentity_x_proxyAdr_x_txtZip_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierCountry",
+					"value": "ddlbody_x_tabc_x_identity_x_prxidentity_x_proxyAdr_x_ddlPays_x",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierSupplierClassification",
+					"value": "ddlbody_x_tabc_x_identity_x_prxidentity_x_selClasCode_x",
+					"type": "ID"
+				}
+				]
+		},
+		{
+			"name": "ProcurementDelete",
+			"elements": [
+				{
+					"key": "usernameProcureOne",
+					"value": "body_x_txtLogin_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "password",
+					"value": "body_x_txtLogin_x_x_yy",
+					"type": "XPATH"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.fanniemae.automation.listeners.JyperionListener"/>
+    <listener class-name="com.fanniemae.automation.listeners.ExtentReporterNG"/>
+  </listeners>
+  <test name="Test1">
+    <classes>
+      <class name="com.techouts.fanniemae.testcases.BroadCastMessage"/>
+    </classes>
+  </test> <!-- Test1 -->
+  <test name="Test1(failed)">
+    <classes>
+      <class name="com.techouts.fanniemae.testcases.BroadCastMessage">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="createBroadCastMessage"/>
+        </methods>
+      </class> <!-- com.techouts.fanniemae.testcases.BroadCastMessage -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

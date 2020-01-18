@@ -1,0 +1,778 @@
+{
+	"module": "Elementsfactory",
+	"models": [
+		{
+			"name": "CreateMasterServicesAgreement",
+			"elements": [
+				{
+					"key": "contracts",
+					"value": "link_ivmenu00_menu_2",
+					"type": "ID"
+				},
+				{
+					"key": "createcontract",
+					"value": "link_ivmenu00_menu_2_sub0_sub0",
+					"type": "ID"
+				},
+				{
+					"key": "cspviolation",
+					"value": "//span[@class='fa fa-times']",
+					"type": "XPATH"
+				},
+				{
+					"key": "contractTitle",
+					"value": "//input[@name='body:x:tabc:x:info:x:prxinfo:x:txtLibContract:x:txtLibContracten']",
+					"type": "XPATH"
+				},
+				{
+					"key": "contractType",
+					"value": "//select[@id='ddlbody_x_tabc_x_info_x_prxinfo_x_selTypeContract_x']",
+					"type": "XPATH"
+				},
+				{
+					"key": "supplier",
+					"value": "//input[@name='body:x:tabc:x:info:x:prxinfo:x:selSupplier:x:txtselSupplier:x:x']",
+					"type": "XPATH"
+				},
+				{
+					"key": "costcenter",
+					"value": "//input[@name='body:x:tabc:x:info:x:prxinfo:x:orga_level:x:txtorga_level:x:x']",
+					"type": "XPATH"
+				},
+				{
+					"key": "pepolesoftproject",
+					"value": "//input[@name='body:x:tabc:x:info:x:prxinfo:x:selFundingId:x:txtselFundingId:x:x']",
+					"type": "XPATH"
+				},
+				{
+					"key": "fileattach",
+					"value": "//input[@name='body:x:tabc:x:info:x:prxinfo:x:prxDoc:x:UploadButtonControl_btn2']",
+					"type": "XPATH"
+				},
+				{
+					"key": "primaryCategory",
+					"value": "//input[@name='body:x:tabc:x:info:x:prxinfo:x:selFamily:x:txtselFamily:x:x']",
+					"type": "XPATH"
+				},
+				{
+					"key": "productsServicesDescription",
+					"value": "//textarea[@name='body:x:tabc:x:info:x:prxinfo:x:txtCtrFmTxtproductservice:x:x']",
+					"type": "XPATH"
+				},
+				{
+					"key": "contractStatusIndicator",
+					"value": "//select[@id='ddlbody_x_tabc_x_info_x_prxinfo_x_selFbdrindiCodeFmDdlriskindicator_2_x']",
+					"type": "XPATH"
+				},
+				{
+					"key": "statusUpdateNextSteps",
+					"value": "//textarea[@name='body:x:tabc:x:info:x:prxinfo:x:txtCtrStatUpdNextSteps_1:x:x']",
+					"type": "XPATH"
+				},
+				{
+					"key": "thirdPartyData",
+					"value": "//select[@id='ddlbody_x_tabc_x_info_x_prxinfo_x__ctr_fm_aor_edam_x']",
+					"type": "XPATH"
+				},
+				{
+					"key": "transactionLegalSME",
+					"value": "//select[@id='ddlbody_x_tabc_x_info_x_prxinfo_x_txtCtrSme_x']",
+					"type": "XPATH"
+				},
+				{
+					"key": "chargedtheloan",
+					"value": "//select[@id='ddlbody_x_tabc_x_info_x_prxinfo_x_txtCtrFsoneCode_x']",
+					"type": "XPATH"
+				},
+				{
+					"key": "legal",
+					"value": "//select[@id='ddlbody_x_tabc_x_info_x_prxinfo_x__ctr_fm_aor_reo_x']",
+					"type": "XPATH"
+				},
+				{
+					"key": "createdfromPR",
+					"value": "//select[@id='ddlbody_x_tabc_x_info_x_prxinfo_x_txtCtrFromPr_x']",
+					"type": "XPATH"
+				},
+				{
+					"key": "budgetBUApprovalProvidedinFieldglass",
+					"value": "//select[@id='ddlbody_x_tabc_x_info_x_prxinfo_x_txtCtrFg_x']",
+					"type": "XPATH"
+				}
+				
+			]
+		},
+		
+		
+		{
+			"name": "approval",
+			"elements": [
+				{
+					"key": "saveButton",
+					"value": "//input[@name='proxyActionBar:x:_cmdSave_btn2']",
+					"type": "XPATH"
+				},
+				{
+					"key": "contractTeamSet",
+					"value": "proxyActionBar_x_valctr_lifecycle_fm_eleven_2PRE_INI_btn2",
+					"type": "ID"
+				},
+				{
+					"key": "saveButtonMarkC",
+					"value": "//span[@class='fa fa-times']",
+					"type": "XPATH"
+				}
+				,
+				{
+					"key": "approveButton",
+					"value": "//input[@name='proxyActionBar:x:valPUO_v7CATMANVAL_btn2']",
+					"type": "XPATH"
+				}
+			]
+		},
+		{
+			"name": "Logout",
+			"elements": [
+				{
+					"key": "loginMenu",
+					"value": "aLoginMenu",
+					"type": "ID"
+				},
+				{
+					"key": "logOutButton",
+					"value": "//a[contains(text(),'Logout')]",
+					"type": "XPATH"
+				}
+				
+			]
+		},
+		
+		
+		{
+			"name": "Login",
+			"elements": [
+				{
+					"key": "usernameProcureOne",
+					"value": "body_x_txtLogin_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "passwordProcureOne",
+					"value": "body_x_txtPass_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "loginProcureOne",
+					"value": "//input[@name='body:x:btnLogin_btn2']",
+					"type": "XPATH"
+				}
+				
+			]	
+		},		
+				{
+			"name": "Supplier",
+			"elements": [
+				{
+					"key": "createSupplierSaveButton",
+					"value": "proxyActionBar_x__cmdSave_btn2",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierBankInfoCloseButton",
+					"value": "proxyActionBar_x_BackAction_btn2",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierBankingInformationSupplierEmailAddressForACHPaymentConf",
+					"value": "body_x_tabc_x_eproc_x_prxeproc_x_txtSupPaymentConfirmEmail_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierContactInfoSaveAndClose",
+					"value": "proxyActionBar_x__cmdEnd_btn2",
+					"type": "ID"
+				},
+				{
+					"key": "mainInfoTab",
+					"value": "//span[text()='Main Info']",
+					"type": "XPATH"
+				},
+				
+				{
+					"key": "createSupplierSupplierLink",
+					"value": "link_ivmenu00_menu_0",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierLink",
+					"value": "link_ivmenu00_menu_0_sub0_sub0",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierSupplierType",
+					"value": "body_x_tabc_x_identity_x_prxidentity_x_ddlType_x",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierLegalName",
+					"value": "body_x_tabc_x_identity_x_prxidentity_x_txtName_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierDoingBusinessAs",
+					"value": "body_x_tabc_x_identity_x_prxidentity_x_txtCorpName_x_txtCorpNameen",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierPhoneNumber",
+					"value": "body_x_tabc_x_identity_x_prxidentity_x_txtSupRegisContactPhone_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierMainSupplierAddressNameAdditional",
+					"value": "body_x_tabc_x_identity_x_prxidentity_x_proxyAdr_x_txtCompNom_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierAddressLine1",
+					"value": "body_x_tabc_x_identity_x_prxidentity_x_proxyAdr_x_txtVoie_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierCity",
+					"value": "body_x_tabc_x_identity_x_prxidentity_x_proxyAdr_x_txtCity_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "costCentreList",
+					"value": "//div[@role='menuitem']/div",
+					"type": "XPATH"
+				},
+				{
+					"key": "createSupplierState",
+					"value": "body_x_tabc_x_identity_x_prxidentity_x_proxyAdr_x_ddlState_x_txtddlState_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierZip",
+					"value": "body_x_tabc_x_identity_x_prxidentity_x_proxyAdr_x_txtZip_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierCountry",
+					"value": "ddlbody_x_tabc_x_identity_x_prxidentity_x_proxyAdr_x_ddlPays_x",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierSupplierClassification",
+					"value": "ddlbody_x_tabc_x_identity_x_prxidentity_x_selClasCode_x",
+					"type": "ID"
+				},
+				
+				{
+					"key": "createSupplierAdditionalInfoTab",
+					"value": "#body_x_tabc_containerTab_partadmin .tab_label_class > div",
+					"type": "CSS"
+				},
+				{
+					"key": "createSupplierTINType",
+					"value": "ddlbody_x_tabc_x_admin_x_prxadmin_x_selQualCode_x",
+					"type": "ID"
+				},
+				
+				{
+					"key": "createSupplierFederalTaxID",
+					"value": "body_x_tabc_x_admin_x_prxadmin_x_txtTva_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierBankInfoBankTab",
+					"value": "#body_x_tabc_containerTab_parteproc .iv-tab-label",
+					"type": "CSS"
+				},
+				{
+					"key": "createSupplierBankInfoBankButton",
+					"value": "body_x_tabc_x_eproc_x_prxeproc_x_selBdetaCodeBankDetail_x_btnselBdetaCodeBankDetail_btn2",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierBankInfoBankAccountDetails",
+					"value": "body_x_tabc_x_eproc_x_prxeproc_x_selBaccoCodeBankAccountDetails_x_btnselBaccoCodeBankAccountDetails_btn2",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierBankInfoPaymentMethod",
+					"value": "body_x_tabc_x_eproc_x_prxeproc_x_selBpmethCodePaymentMethod_x_btnselBpmethCodePaymentMethod_btn2",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierBankInfoAddBankInfoButton",
+					"value": "body_x_tabc_x_eproc_x_prxeproc_x_btnAddNewBI_btn2",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierBankInfoBankName",
+					"value": "body_x_txtOrder_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierBankInfoCity",
+					"value": "body_x_txtAgency_x_x",
+					"type": "ID"
+				},
+				{
+			
+
+					"key": "createSupplierBankInfoABARoutingNumber",
+					"value": "body_x_txtBiBankId_x_x",
+					"type": "ID"
+				},
+				{
+			
+
+					"key": "createSupplierBankInfoAccNumber",
+					"value": "body_x_txtBiAccountNumber_x_x",
+					"type": "ID"
+				}
+				]
+				},
+				{
+			"name": "CreateSupplierBankingInfo",
+			"elements": [
+				{
+					"key": "createSupplierBankingInformationSupplierEmailAddressForACHPaymentConf",
+					"value": "body_x_tabc_x_eproc_x_prxeproc_x_txtSupPaymentConfirmEmail_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierSaveButton",
+					"value": "proxyActionBar_x__cmdSave_btn2",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierContactInfoSaveAndClose",
+					"value": "proxyActionBar_x__cmdEnd_btn2",
+					"type": "ID"
+				},
+				{
+					"key": "mainInfoTab",
+					"value": "//span[text()='Main Info']",
+					"type": "XPATH"
+				},
+				
+				{
+					"key": "supplierId",
+					"value": "//td[text()='Supplier ID : ']/following-sibling::td/div",
+					"type": "XPATH"
+				},
+				{
+					"key": "createSupplierBankInfoSearchBox",
+					"value": "body_x_txtQuery_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierBankInfoSearchBtn",
+					"value": "body_x_prxFilterBar_x_cmdSearchBtn_btn2",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierBankInfoClickOnResult",
+					"value": "body_x_grid_x__ctl2__ctl0",
+					"type": "ID"
+				}
+					
+			]	
+		},		
+				{
+			"name": "Contacts",
+			"elements": [
+				{
+					"key": "createSupplierContactInfoTab",
+					"value": "#body_x_tabc_containerTab_partcontact .tab_label_class > div",
+					"type": "CSS"
+				},
+				{
+					"key": "createSupplierContactInfoAddAContact",
+					"value": "body_x_tabc_x_contact_x_prxcontact_x_proxyContact_x_selContact_x_btnselContact_btn2",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierSupplierContactManagementStatus",
+					"value": "ddlbody_x_pxCtc_x_ContactControl_x_selStatusCode_x",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierContactInfoLastName",
+					"value": "body_x_pxCtc_x_ContactControl_x_txtContactLastname_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierContactInfoFirstName",
+					"value": "body_x_pxCtc_x_ContactControl_x_txtContactFirstname_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierContactInfoEmail",
+					"value": "body_x_pxCtc_x_ContactControl_x_txtContactEmail_x_x",
+					"type": "ID"
+				},
+				
+				{
+					"key": "createSupplierContactInfoPhono",
+					"value": "body_x_pxCtc_x_ContactControl_x_txtContactPhone_x_x",
+					"type": "ID"
+				}
+							
+			]	
+		},		
+				{
+			"name": "ApprovalWorkFlow",
+			"elements": [
+				{
+					"key": "createSupplierApprovalWorkflowTab",
+					"value": "#body_x_tabc_containerTab_partworkflow .tab_label_class > div",
+					"type": "CSS"
+				},
+				{
+					"key": "createSupplierApprovalWorkflowSubmitForDiligence",
+					"value": "proxyActionBar_x_valFM_SUPREF_SuppliersINI_btn2",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierApprovalWorkflowSubmitToWorkflow",
+					"value": "proxyActionBar_x_valFM_SUPREF_Suppliersots_btn2",
+					"type": "ID"
+				},
+				{
+					
+					"key": "createSupplierApprovalWorkflowApprovalFinal",
+					"value": "proxyActionBar_x_valFM_SUPREF_SuppliersVAL2_btn2",
+					"type": "ID"
+				
+				},
+				{
+					
+					"key": "createSupplierApprovalWorkflowApproveChanges",
+					"value": "proxyActionBar_x_valFM_SUPREF_SuppliersAPP2_btn2",
+					"type": "ID"
+				
+				}
+					]	
+		},		
+				{
+			"name": "SearchAndVerify",
+			"elements": [
+				{
+					"key": "createSupplierSupplierLink",
+					"value": "link_ivmenu00_menu_0",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierBrowseSuppliers",
+					"value": "link_ivmenu00_menu_0_sub0",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierStatusCroseMark",
+					"value": "//*[@id='ddlbody_x_ddlStatus_x__label']/../following-sibling::td/table//tbody/tr[2]//tbody/tr/td[1]",
+					"type": "XPATH"
+				},
+				{
+					"key": "searchSupplierSupplierType",
+					"value": "ddlbody_x_ddlType_x",
+					"type": "ID"
+				},
+				{
+					"key": "searchSupplierSearchKeyword",
+					"value": "body_x_txtQuery_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "searchSupplierSearchButton",
+					"value": "body_x_prxFilterBar_x_cmdSearchBtn_btn2",
+					"type": "ID"
+				},
+				{
+					"key": "searchSupplierResultGridSupplierId",
+					"value": "//table[@id='body_x_grid_x']//tr/td[6]",
+					"type": "XPATH"
+				}
+				]	
+		},		
+				
+				{
+			"name": "RealEstateBroker",
+			"elements": [
+				{
+					"key": "createSupplierSupplierLink",
+					"value": "link_ivmenu00_menu_0",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierLink",
+					"value": "link_ivmenu00_menu_0_sub0_sub0",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierSupplierType",
+					"value": "body_x_tabc_x_identity_x_prxidentity_x_ddlType_x",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierLegalName",
+					"value": "body_x_tabc_x_identity_x_prxidentity_x_txtName_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierMainSupplierAddressNameAdditional",
+					"value": "body_x_tabc_x_identity_x_prxidentity_x_proxyAdr_x_txtCompNom_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierAddressLine1",
+					"value": "body_x_tabc_x_identity_x_prxidentity_x_proxyAdr_x_txtVoie_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierCity",
+					"value": "body_x_tabc_x_identity_x_prxidentity_x_proxyAdr_x_txtCity_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierState",
+					"value": "body_x_tabc_x_identity_x_prxidentity_x_proxyAdr_x_ddlState_x_txtddlState_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierZip",
+					"value": "body_x_tabc_x_identity_x_prxidentity_x_proxyAdr_x_txtZip_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierCountry",
+					"value": "ddlbody_x_tabc_x_identity_x_prxidentity_x_proxyAdr_x_ddlPays_x",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierRealEstateBrokerEquatorIdEVID",
+					"value": "body_x_tabc_x_identity_x_prxidentity_x__sup_fm_equator_id_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierRealEstateBrokerUsingWeb",
+					"value": "body_x_tabc_x_identity_x_prxidentity_x_txtSupUseWeb_x0",
+					"type": "ID"
+				},
+				{
+					"key": "searchSupplierResultGridCompanyName",
+					"value": "//table[@id='body_x_grid_x']//tr/td[8]",
+					"type": "XPATH"
+				},
+				{
+					"key": "createSupplierSaveButton",
+					"value": "proxyActionBar_x__cmdSave_btn2",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierAdditionalInfoTab",
+					"value": "#body_x_tabc_containerTab_partadmin .tab_label_class > div",
+					"type": "CSS"
+				},
+				{
+					"key": "createSupplierNameAdditional",
+					"value": "body_x_tabc_x_admin_x_prxadmin_x_proxyAdrPay_x_txtCompNom_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierAddInfoAddressLine1",
+					"value": "body_x_tabc_x_admin_x_prxadmin_x_proxyAdrPay_x_txtVoie_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierAddInfoCity",
+					"value": "body_x_tabc_x_admin_x_prxadmin_x_proxyAdrPay_x_txtCity_x_x",
+					"type": "ID"
+				},
+				
+				{
+					"key": "createSupplierAddInfoZip",
+					"value": "body_x_tabc_x_admin_x_prxadmin_x_proxyAdrPay_x_txtZip_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierAddInfoState",
+					"value": "body_x_tabc_x_admin_x_prxadmin_x_proxyAdrPay_x_ddlState_x_txtddlState_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierAddInfoCountry",
+					"value": "ddlbody_x_tabc_x_admin_x_prxadmin_x_proxyAdrPay_x_ddlPays_x",
+					"type": "ID"
+				},
+				
+				{
+					"key": "superLoginIcon",
+					"value": "//*[@class='icon_base icon_profil']",
+					"type": "XPATH"
+				},
+				{
+					"key": "superLoginlogin",
+					"value": "body:x:pxCtc:x:txtLoginName:x:x",
+					"type": "NAME"
+				},
+				{
+					"key": "superLoginpassword",
+					"value": "body:x:pxCtc:x:txtLoginPass:x:x",
+					"type": "NAME"
+				},
+				{
+					"key": "createSupplierContactInfoSaveAndClose",
+					"value": "proxyActionBar_x__cmdEnd_btn2",
+					"type": "ID"
+				},
+				{
+					"key": "regenaratePasswordButton",
+					"value": "//img[@class='icon_base icon_invite']",
+					"type": "XPATH"
+				},
+				{
+					"key": "regenaratepassword",
+					"value": "proxyActionBar:x:resend_btn2",
+					"type": "NAME"
+				},
+				{
+					"key": "regenaratePasswordClose",
+					"value": "proxyActionBar_x_BackAction_btn2",
+					"type": "ID"
+				},
+				{
+					"key": "saveButtonMarkC",
+					"value": "//span[@class='fa fa-times']",
+					"type": "XPATH"
+				},
+				{
+					"key": "supplierRole",
+					"value": "//*[text()='Role']/../following-sibling::tr[2]/td[11]//select",
+					"type": "XPATH"
+				},
+				{
+					"key": "supplierRole2",
+					"value": "//*[text()='Role']/../following-sibling::tr[2]/td[11]//select",
+					"type": "XPATH"
+				},
+				
+				{
+					"key": "createSupplierApprovalWorkflowTab",
+					"value": "#body_x_tabc_containerTab_partworkflow .tab_label_class > div",
+					"type": "CSS"
+				},
+				{
+					"key": "createSupplierApprovalWorkflowSubmitForDiligence",
+					"value": "proxyActionBar_x_valFM_SUPREF_SuppliersINI_btn2",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierApprovalWorkflowSubmitToWorkflow",
+					"value": "proxyActionBar_x_valFM_SUPREF_Suppliersots_btn2",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierRealEstateBrokerContinueOnBoarding",
+					"value": "proxyActionBar_x_valFM_SUPREF_Suppliersm_trax_chk_btn2",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierRealEstateBrokerProfileDocumentUpdate",
+					"value": "proxyActionBar_x_valFM_SUPREF_Suppliersfm_sup_update_btn2",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierRealEstateBrokerApprove",
+					"value": "proxyActionBar_x_valFM_SUPREF_Suppliersfm_sup_ops_review_btn2",
+					"type": "ID"
+				},
+				{
+
+					"key": "createSupplierRealEstateBrokerNoFindings",
+					"value": "proxyActionBar_x_valFM_SUPREF_Suppliersfm_due_diligence_btn2",
+					"type": "ID"
+				},
+				{
+
+					"key": "createSupplierRealEstateBrokerTraxUpdated",
+					"value": "proxyActionBar_x_valFM_SUPREF_Suppliersfm_sup_op_trax_upd_btn2",
+					"type": "ID"
+				},
+				{
+
+					"key": "createSupplierRealEstateBrokerProcureOneUpdated",
+					"value": "proxyActionBar_x_valFM_SUPREF_Suppliersfm_upd_proc_one_btn2",
+					"type": "ID"
+				},
+				{
+
+					"key": "createSupplierRealEstateBrokerACHInformationUpdated",
+					"value": "proxyActionBar_x_valFM_SUPREF_Suppliersfm_upd_ach_btn2",
+					"type": "ID"
+				},
+				{
+
+					"key": "createSupplierRealEstateBrokerApproveFinal",
+					"value": "proxyActionBar_x_valFM_SUPREF_SuppliersVAL1_btn2",
+					"type": "ID"
+				},
+				{
+
+					"key": "createSupplierRealEstateBrokerReason",
+					"value": "proxyActionBar_x_txtWflRefuseMessage_x_x",
+					"type": "ID"
+				},
+				{
+
+					"key": "createSupplierRealEstateBrokerReasonConfirm",
+					"value": "proxyActionBar_x_btnWflRefuseMessage_btn2",
+					"type": "ID"
+				},
+				{
+
+					"key": "createSupplierRealEstateBrokerIsPayable",
+					"value": "body_x_tabc_x_identity_x_prxidentity_x_txtSupPayTrx_x0",
+					"type": "ID"
+				},
+				
+				{
+
+					"key": "mainInfoTab",
+					"value": "//span[text()='Main Info']",
+					"type": "XPATH"
+				},
+				{
+
+					"key": "supplierId",
+					"value": "//td[text()='Supplier ID : ']/following-sibling::td/div",
+					"type": "XPATH"
+				},
+					{
+
+					"key": "createSupplierBankInfoSearchBox",
+					"value": "body_x_txtQuery_x_x",
+					"type": "ID"
+				},
+					{
+
+					"key": "createSupplierBankInfoSearchBtn",
+					"value": "body_x_prxFilterBar_x_cmdSearchBtn_btn2",
+					"type": "ID"
+				},
+					{
+
+					"key": "createSupplierBankInfoClickOnResult",
+					"value": "body_x_grid_x__ctl2__ctl0",
+					"type": "ID"
+				}
+					
+				]
+		}
+				
+	]
+}

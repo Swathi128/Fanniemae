@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.fanniemae.automation.listeners.JyperionListener" />
+		<listener class-name="com.fanniemae.automation.listeners.ExtentReporterNG" />
+	</listeners>
+	<test name="Test1" allow-return-values="true">
+		<classes>
+			<!--  <class name="com.techouts.fanniemae.testcases.CreateRequisitionsTest"/> -->
+<!-- 			<class name="com.techouts.fanniemae.testcases.CreateContractMasterServicesAgreement"/> -->
+		<!--	   <class name="com.techouts.fanniemae.testcases.CorporateSupplierCreationTest"/> -->
+<!-- 			<class name="com.techouts.fanniemae.testcases.RealEstateBrokerSupplierCreationTest"/> -->
+          <!--  <class name="com.techouts.fanniemae.testcases.User"/> -->
+            <!-- <class name="com.techouts.fanniemae.testcases.UserManagement"/> -->
+          <!--  <class name="com.techouts.fanniemae.testcases.NotificationsAndMail"/> -->
+              <class name="com.techouts.fanniemae.testcases.BroadCastMessage"/> 
+             
+		</classes>
+	</test>
+</suite>
+
+

@@ -1,0 +1,136 @@
+{
+	"module": "userElements3",
+	"models": [
+		{
+			"name": "BroadMessage",
+			"elements": [
+				{
+					"key": "user",
+					"value":"link_ivmenu00_menu_7",
+					"type": "ID"
+				},
+				{
+					"key": "broadCastMessage",
+					"value":"link_ivmenu00_menu_7_sub2_sub0_sub2",
+					"type": "ID"
+				},
+				
+				{
+					"key": "keyWords",
+					"value":"body:x:txtQuery:x:x",
+					"type": "NAME"
+				},
+				{
+					"key": "type",
+					"value":"body:x:ddlType:x",
+					"type": "NAME"
+				},
+				{
+					"key": "beginDate",
+					"value":"body:x:txtBeginDate:x:x",
+					"type": "NAME"
+				},
+				{
+					"key": "hoursMinSecBegin",
+					"value":"body:x:txtBeginDate:x:selTT:x:txtselTT:x:x",
+					"type": "NAME"
+				},
+				{
+					"key": "endDate",
+					"value":"body:x:txtEndDate:x:x",
+					"type": "NAME"
+				},
+				{
+					"key": "hoursMinSecEnd",
+					"value":"body:x:txtEndDate:x:selTT:x:txtselTT:x:x",
+					"type": "NAME"
+				},
+				{
+					"key": "AddMessage",
+					"value":"proxyActionBar:x:add_broadcast_btn2",
+					"type": "NAME"
+				},
+				{
+					"key": "code",
+					"value":"body:x:txtCode:x:x",
+					"type": "NAME"
+				},
+				{
+					"key": "manageAddress",
+					"value":"link_ivmenu00_menu_7_sub2_sub2",
+					"type": "ID"
+				},
+				{
+					"key": "legalCompany",
+					"value":"body:x:ddlLegalCompany:x",
+					"type": "NAME"
+				},
+				
+				{
+					"key": "organization",
+					"value":"body:x:selOrga:x:txtselOrga:x:x",
+					"type": "NAME"
+				},
+				{
+					"key": "country",
+					"value":"ddlbody_x_ddlCountry_x",
+					"type": "ID"
+				},
+				{
+					"key": "addressType",
+					"value":"body:x:ddlAddressType:x",
+					"type": "NAME"
+				},
+				{
+					"key": "addNewType",
+					"value":"proxyActionBar:x:_cmdNew_btn2",
+					"type": "NAME"
+				},
+				{
+					"key": "contact",
+					"value":"body:x:selContact:x:txtselContact:x:x",
+					"type": "NAME"
+				},
+				{
+					"key": "name",
+					"value":"body:x:prxAddress:x:txtCompNom:x:x",
+					"type": "NAME"
+				},
+				{
+					"key": "officeNumber",
+					"value":"body:x:prxAddress:x:txtAdrOfficeNumber:x:x",
+					"type": "NAME"
+				},
+				{
+					"key": "floor",
+					"value":"body:x:prxAddress:x:txtAdrFloor:x:x",
+					"type": "NAME"
+				},
+				{
+					"key": "number",
+					"value":"body:x:prxAddress:x:txtNum:x:x",
+					"type": "NAME"
+				},
+				{
+					"key": "address1",
+					"value":"body:x:prxAddress:x:txtVoie:x:x",
+					"type": "NAME"
+				},
+				{
+					"key": "save",
+					"value":"proxyActionBar_x_BackAction_btn2",
+					"type": "ID"
+				},
+				{
+					"key": "zip",
+					"value":"body:x:prxAddress:x:txtZip:x:x",
+					"type": "NAME"
+				},
+				{
+					"key": "city",
+					"value":"body:x:prxAddress:x:txtCity:x:x",
+					"type": "NAME"
+				}
+				]
+				}
+				]}

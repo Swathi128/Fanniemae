@@ -1,0 +1,189 @@
+{
+	"module": "elements",
+	"models": [
+		{
+			"name": "CreateRequistion",
+			"elements": [
+				{
+					"key": "addItem",
+					"value": "body:x:tabc:x:identity:x:prxidentity:x:proxyItemControl:x:btnNewItem_btn2",
+					"type": "NAME"
+				},
+				{
+					"key": "itemDescription",
+					"value": "//input[@name='body:x:txtItemLabel:x:x']",
+					"type": "XPATH"
+				},
+				{
+					"key": "itemPrice",
+					"value": "//input[@name='body:x:txtPrice:x:x']",
+					"type": "XPATH"
+				},
+				{
+					"key": "itemQuantity",
+					"value": "//input[@name='body:x:txtQuantity:x:x']",
+					"type": "XPATH"
+				},
+				{
+					"key": "unitOfMeasure",
+					"value": "ddlbody_x_selUnit_x",
+					"type": "ID"
+				},
+				{
+					"key": "categoryButton",
+					"value": "//input[@name='body:x:selFamily:x:btnselFamily_btn2']",
+					"type": "XPATH"
+				},
+				{
+					"key": "labelIcon",
+					"value": "//i[@id='body_x_grid_x__ctl4__ctl0']",
+					"type": "XPATH"
+				},
+				{
+					"key": "labelSaveButton",
+					"value": "//input[@name='proxyActionBar:x:_cmdSave_btn2']",
+					"type": "XPATH"
+				},
+				{
+					"key": "glAccountButton",
+					"value": "(//*[text()='GL Account']/../following-sibling::tr[2]/td[2]/table//tr/td)[2]",
+					"type": "XPATH"
+				},
+				{
+					"key": "accountSelectionKeyWords",
+					"value": "//input[@name='body:x:txtQuery:x:x']",
+					"type": "XPATH"
+				},
+				{
+					"key": "accountSelectionSearch",
+					"value": "//input[@name='body:x:prxFilterBar:x:cmdSearchBtn_btn2']",
+					"type": "XPATH"
+				},
+				{
+					"key": "accountSelectionLabelIcon",
+					"value": "body_x_grdAccount_x__ctl2__ctl0",
+					"type": "ID"
+				},
+				{
+					"key": "costCenter",
+					"value": "(//*[text()='GL Account']/../following-sibling::tr[2]/td[3]/table//tr/td)[1]/input",
+					"type": "XPATH"
+				},
+				{
+					"key": "costCentreList",
+					"value": "//div[@role='menuitem']/div",
+					"type": "XPATH"
+				},
+				{
+					"key": "peopleSoftProjectID",
+					"value": "(//*[text()='GL Account']/../following-sibling::tr[2]/td[4]/table//tr/td)[1]/input",
+					"type": "XPATH"
+				},
+				{
+					"key": "saveandCloseButton",
+					"value": "//*[@value='Save & close']",
+					"type": "XPATH"
+				},
+				
+				{
+					"key": "submitForApproval",
+					"value": "//input[@value='Submit for Approval']",
+					"type": "XPATH"
+				},
+				{
+					"key": "saveButtonMark",
+					"value": "//div[@id='messageBar']//div/button[2]/span",
+					"type": "XPATH"
+				},
+				{
+					"key": "loginMenu",
+					"value": "aLoginMenu",
+					"type": "ID"
+				},
+				{
+					"key": "myOpenWorkflowTasks",
+					"value":"//a[contains(text(),'My open workflow tasks')]",
+					"type": "XPATH"
+				},
+				{
+					"key": "status",
+					"value":"ddlbody_x_ddlAction_x",
+					"type": "ID"
+				},
+				{
+					"key": "statusButton",
+					"value":"body_x_prxFilterBar_x_cmdSearchBtn_btn2",
+					"type": "ID"
+				},
+				{
+					"key": "allLables",
+					"value":"//table[@class='PowerGridClass']/tbody/tr/td[14]/a",
+					"type": "XPATH"
+				},
+				{
+					"key": "workflow",
+					"value":"//div//span[contains(text(),'Workflow')]",
+					"type": "XPATH"
+				},
+				{
+					"key": "approveButton",
+					"value":"//input[@name='proxyActionBar:x:valPUO_v7CATMANVAL_btn2']",
+					"type": "XPATH"
+				},
+				{
+					"key": "saveButtonMarkC",
+					"value":"//span[@class='fa fa-times']",
+					"type": "XPATH"
+				},
+				{
+					"key": "procurement",
+					"value":"link_ivmenu00_menu_4",
+					"type": "ID"
+				},
+				{
+					"key": "createRequisition",
+					"value":"//a[@id='link_ivmenu00_menu_4_sub0_sub0']",
+					"type": "XPATH"
+				},
+				{
+					"key": "requisitionName",
+					"value":"body:x:tabc:x:identity:x:prxidentity:x:txtLabel:x:x",
+					"type": "NAME"
+				},
+				{
+					"key": "headerInformationRequester",
+					"value":"body:x:tabc:x:identity:x:prxidentity:x:selRequester:x:txtselRequester:x:x",
+					"type": "NAME"
+				},
+				{
+					"key": "justification",
+					"value":"body:x:tabc:x:identity:x:prxidentity:x:txtComment:x:x",
+					"type": "NAME"
+				},
+				
+				{
+					"key": "clickDragToAddFiles",
+					"value":"//input[@name='body:x:tabc:x:identity:x:prxidentity:x:prxFiles:x:UploadButtonControl_btn2']",
+					"type": "XPATH"
+				},
+				{
+					"key": "saveButton",
+					"value":"//input[@id='proxyActionBar_x__cmdSave_btn2']",
+					"type": "XPATH"
+				},
+				{
+					"key": "basketNo",
+					"value":"//h1[@class='maintitle']",
+					"type": "XPATH"
+				},
+				{
+					"key": "headerInformationPRWatchers",
+					"value":"body:x:tabc:x:identity:x:prxidentity:x:selBasketIdPrWatContactIdPrWat_3ACC567C:x:txtselBasketIdPrWatContactIdPrWat_3ACC567C:x:x",
+					"type": "NAME"
+				}
+			]
+			}
+			]	
+		
+			}
+					

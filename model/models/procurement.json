@@ -1,0 +1,35 @@
+{
+	"module": "procurement",
+	"models": [
+		{
+			"name": "CreateProcument",
+			"elements": [
+				{
+					"key": "usernameProcureOne",
+					"value": "body_x_txtLogin_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "password",
+					"value": "body_x_txtLogin_x_x_yy",
+					"type": "XPATH"
+				}
+			]
+		},
+		{
+			"name": "ProcurementDelete",
+			"elements": [
+				{
+					"key": "usernameProcureOne",
+					"value": "body_x_txtLogin_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "password",
+					"value": "body_x_txtLogin_x_x_yy",
+					"type": "XPATH"
+				}
+			]
+		}
+	]
+}

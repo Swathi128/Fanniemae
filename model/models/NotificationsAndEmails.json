@@ -1,0 +1,143 @@
+{
+	"module": "userElements2",
+	"models": [
+		{
+			"name": "NotificationsAndEmail",
+			"elements": [
+				{
+					"key": "user",
+					"value":"link_ivmenu00_menu_7",
+					"type": "ID"
+				},
+				{
+					"key": "notifications",
+					"value":"link_ivmenu00_menu_7_sub2_sub0",
+					"type": "ID"
+				},
+				{
+					"key": "keyWords",
+					"value":"body:x:txtQuery:x:x",
+					"type": "NAME"
+				},
+				{
+					"key": "notificationPoint",
+					"value":"body:x:selNotifPoint:x:txtselNotifPoint:x:x",
+					"type": "NAME"
+				},
+					{
+					"key": "module",
+					"value":"ddlbody_x_selModule_x",
+					"type": "ID"
+				},
+				{
+					"key": "sent",
+					"value":"body:x:txtDate:x:x",
+					"type": "NAME"
+				},
+				{
+					"key": "to",
+					"value":"body:x:txtDate:x:rtxtDate:x:x",
+					"type": "NAME"
+				},
+				{
+					"key": "status",
+					"value":"ddlbody_x_selStatus_x",
+					"type": "ID"
+				},
+				{
+					"key": "receiver",
+					"value":"body:x:selContactTo:x:txtselContactTo:x:x",
+					"type": "NAME"
+				},
+				{
+					"key": "content",
+					"value":"(//*[contains(@id,'colSubject')])[1]",
+					"type": "XPATH"
+				},
+				{
+					"key": "checkBox",
+					"value":"chk[64f2d9da-12d3-4e3a-a882-1bca564d169f]",
+					"type": "NAME"
+				},
+				{
+					"key": "ManageTypesOfNotifications",
+					"value":"link_ivmenu00_menu_7_sub2_sub0_sub0",
+					"type": "ID"
+				},
+				{
+					"key": "activated",
+					"value":"ddlbody_x_chkActivated_x",
+					"type": "ID"
+				},
+				{
+					"key": "objectType",
+					"value":"body:x:selOtypeCode:x:txtselOtypeCode:x:x",
+					"type": "NAME"
+				},
+				{
+					"key": "category",
+					"value":"body:x:selNcatCode:x:txtselNcatCode:x:x",
+					"type": "NAME"
+				},
+				{
+					"key": "createNewTypeOfNotification",
+					"value":"proxyActionBar:x:add_new_notification_point_btn2",
+					"type": "NAME"
+				},
+				{
+					"key": "code",
+					"value":"body:x:txtCode:x:x",
+					"type": "NAME"
+				},
+				{
+					"key": "notificationLabel",
+					"value":"body:x:txtLabel:x:txtLabelen",
+					"type": "NAME"
+				},
+				{
+					"key": "defaultSender",
+					"value":"body:x:txtFrom:x:x",
+					"type": "NAME"
+				},
+				{
+					"key": "defaultToMail",
+					"value":"body:x:txtTo:x:x",
+					"type": "NAME"
+				},
+				{
+					"key": "defaultReplyMail",
+					"value":"body:x:txtReply:x:x",
+					"type": "NAME"
+				},
+				{
+					"key": "defaultAcknowledgementMail",
+					"value":"body:x:txtAcknowledge:x:x",
+					"type": "NAME"
+				},
+				{
+					"key": "objectForMergeFields",
+					"value":"body:x:selObject:x:txtselObject:x:x",
+					"type": "NAME"
+				},
+				{
+					"key": "emailLogs",
+					"value":"link_ivmenu00_menu_7_sub2_sub0_sub1",
+					"type": "ID"
+				}
+				
+				
+				
+				
+				
+				]
+				}
+				]
+				}
+				
+				
+				
+				
+				
+				
+				
+				

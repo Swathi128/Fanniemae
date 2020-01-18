@@ -1,0 +1,151 @@
+{
+	"module": "userElements1",
+	"models": [
+		{
+			"name": "userManagement",
+			"elements": [
+				{
+					"key": "userManagement",
+					"value":"link_ivmenu00_menu_7_sub2",
+					"type": "ID"
+				},
+				{
+					"key": "user",
+					"value":"link_ivmenu00_menu_7",
+					"type": "ID"
+				},
+				{
+					"key": "createNewUser",
+					"value":"proxyActionBar_x_add_new_user_btn2",
+					"type": "ID"
+				},
+				
+					{
+					"key": "keyWords",
+					"value":"body:x:txtQuery:x:x",
+					"type": "NAME"
+				},
+				{
+					"key": "supplier",
+					"value":"body:x:selSupplier:x:txtselSupplier:x:x",
+					"type": "NAME"
+				},
+				{
+					"key": "contactType",
+					"value":"body_x_ddlContactType_x",
+					"type": "ID"
+				},
+		
+				{
+					"key": "pencilIcon",
+					"value":"body_x_grid_x__ctl2___colManagegrid",
+					"type": "ID"
+				},
+				{
+					"key": "search",
+					"value":"body:x:prxFilterBar:x:cmdSearchBtn_btn2",
+					"type": "NAME"
+				},
+				{
+					"key": "reset",
+					"value":"body:x:prxFilterBar:x:cmdRazBtn_btn2",
+					"type": "NAME"
+				},
+				{
+					"key": "perferences",
+					"value":"/html/body/form[1]/div/div[2]/table/tbody/tr/td/div/div[1]/div/div[2]/div/div/div/span",
+					"type": "XPATH"
+				},
+				{
+					"key": "defaultOrganization",
+					"value":"body:x:tab:x:extra_tab_0:x:prxextra_tab_0:x:extens_1:x:selOrga:x:txtselOrga:x:x",
+					"type": "NAME"
+				},
+				{
+					"key": "defaultDeliveryPlace",
+					"value":"body:x:tab:x:extra_tab_0:x:prxextra_tab_0:x:extens_1:x:selOrgaDeliv:x:txtselOrgaDeliv:x:x",
+					"type": "NAME"
+				},
+				{
+					"key": "OrgaPerimeter",
+					"value":"/html/body/form[1]/div/div[2]/table/tbody/tr/td/div/div[1]/div/div[3]/div/div/div/span",
+					"type": "XPATH"
+				},
+				{
+					"key": "keyWordsOrgPerimeter",
+					"value":"body_x_tab_x_extra_tab_1_x_prxextra_tab_1_x_txtQuery_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "CheckAll",
+					"value":"/html/body/form[1]/div/div[2]/table/tbody/tr/td/div/div[4]/strong/table/tbody/tr[2]/td/table/tbody/tr[2]/td/div/ul/li[1]/ul/li/a/i[1]",
+					"type": "XPATH"
+				},
+				{
+					"key": "commodityPerimeter",
+					"value":"/html/body/form[1]/div/div[2]/table/tbody/tr/td/div/div[1]/div/div[4]/div/div/div/span",
+					"type": "XPATH"
+				},
+				{
+					"key": "costCenters",
+					"value":"/html/body/form[1]/div/div[2]/table/tbody/tr/td/div/div[1]/div/div[5]/div/div/div/span",
+					"type": "XPATH"
+				},
+				{
+					"key": "keyWordsCommodity",
+					"value":"body:x:tab:x:extra_tab_2:x:prxextra_tab_2:x:ProxyFamily:x:tvFam:txtQuery:x:x",
+					"type": "NAME"
+				},
+				{
+					"key": "keyWordsCostCenters",
+					"value":"body:x:tab:x:extra_tab_3:x:prxextra_tab_3:x:txtQuery:x:x",
+					"type": "NAME"
+				},
+				{
+					"key": "projects",
+					"value":"/html/body/form[1]/div/div[2]/table/tbody/tr/td/div/div[1]/div/div[6]/div/div/div/span",
+					"type": "XPATH"
+				},
+				{
+					"key": "projectsName",
+					"value":"body:x:tab:x:extra_tab_4:x:prxextra_tab_4:x:selProject:x:txtselProject:x:x",
+					"type": "NAME"
+				},
+				{
+					"key": "massEdit",
+					"value":"proxyActionBar_x_mass_eddit_btn2",
+					"type": "ID"
+				},
+				
+				{
+					"key": "save",
+					"value":"proxyActionBar_x__cmdSave_btn2",
+					"type": "ID"
+				},
+				{
+					"key": "close",
+					"value":"proxyActionBar_x__cmdEnd_btn2",
+					"type": "ID"
+				},
+				{
+					"key": "duplicateUser",
+					"value":"proxyActionBar_x__cmdEdit_btn2",
+					"type": "ID"
+				},
+				{
+					"key": "saveAndNew",
+					"value":"proxyActionBar_x__cmdNew_btn2",
+					"type": "ID"
+				},
+				
+				
+				
+				
+				
+				
+				
+			
+				]
+			}
+			]
+			}

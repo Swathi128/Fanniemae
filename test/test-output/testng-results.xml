@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8388" started-at="2020-01-18T08:04:48Z" finished-at="2020-01-18T08:04:56Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8388" started-at="2020-01-18T08:04:48Z" finished-at="2020-01-18T08:04:56Z">
+      <class name="com.techouts.fanniemae.testcases.CorporateSupplierCreationTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.techouts.fanniemae.testcases.CorporateSupplierCreationTest@53fd0d10]" name="beforeSuite" is-config="true" duration-ms="243" started-at="2020-01-18T13:34:48Z" finished-at="2020-01-18T13:34:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="FAIL" signature="createCorporateSupplier()[pri:3, instance:com.techouts.fanniemae.testcases.CorporateSupplierCreationTest@53fd0d10]" name="createCorporateSupplier" duration-ms="8377" started-at="2020-01-18T13:34:48Z" finished-at="2020-01-18T13:34:56Z">
+          <exception class="com.techouts.fanniemae.exceptions.FannieMaeBusinessException">
+            <message>
+              <![CDATA[throwing exception to make sure capturing testcase result to testNG]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.techouts.fanniemae.exceptions.FannieMaeBusinessException: throwing exception to make sure capturing testcase result to testNG
+	at com.fanniemae.automation.test.AbstractTest.performPostExceptionProcess(AbstractTest.java:246)
+	at com.techouts.fanniemae.testcases.CorporateSupplierCreationTest.createCorporateSupplier(CorporateSupplierCreationTest.java:139)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+Caused by: com.techouts.fanniemae.exceptions.FannieMaeBusinessException: unable to perform logout operation in TestCase[CreateCorporateSupplier].
+	at com.fanniemae.automation.test.page.actions.HomePageActions.logout(HomePageActions.java:369)
+	at com.fanniemae.automation.test.AbstractTest.performPostExceptionProcess(AbstractTest.java:243)
+	... 25 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.techouts.fanniemae.exceptions.FannieMaeBusinessException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCorporateSupplier -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.techouts.fanniemae.testcases.CorporateSupplierCreationTest@53fd0d10]" name="afterSuite" is-config="true" duration-ms="4701" started-at="2020-01-18T13:34:56Z" finished-at="2020-01-18T13:35:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.techouts.fanniemae.testcases.CorporateSupplierCreationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
