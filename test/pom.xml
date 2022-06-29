@@ -12,7 +12,7 @@
 		<testng.version>6.14.3</testng.version>
 		<commons.io.version>1.3.2</commons.io.version>
 		<javax.mail-api.version>1.4.4</javax.mail-api.version>
-		<poi.version>3.17</poi.version>
+		<poi.version>4.1.1</poi.version>
 		<poi.ooxml.version>3.17</poi.ooxml.version>
 		<poi.ooxml.scemas.version>1.3</poi.ooxml.scemas.version>
 		<log4j.version>1.2.17</log4j.version>
